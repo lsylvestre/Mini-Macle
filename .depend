@@ -1,0 +1,99 @@
+src/backend/compile.cmo :
+src/backend/compile.cmx :
+src/backend/err.cmo :
+src/backend/err.cmx :
+src/backend/flat_hsml.cmo :
+src/backend/flat_hsml.cmx :
+src/backend/hsml.cmo :
+src/backend/hsml.cmx :
+src/backend/hsml2vhdl.cmo :
+src/backend/hsml2vhdl.cmx :
+src/backend/hsml_pprint.cmo :
+src/backend/hsml_pprint.cmx :
+src/backend/hsml_substitute.cmo :
+src/backend/hsml_substitute.cmx :
+src/backend/hsml_types.cmo :
+src/backend/hsml_types.cmx :
+src/backend/hsml_typing.cmo :
+src/backend/hsml_typing.cmx :
+src/backend/ident.cmo :
+src/backend/ident.cmx :
+src/backend/loc.cmo :
+src/backend/loc.cmx :
+src/backend/make_platform/gen_bsp_update_tcl.cmo :
+src/backend/make_platform/gen_bsp_update_tcl.cmx :
+src/backend/make_platform/gen_hw_tcl.cmo :
+src/backend/make_platform/gen_hw_tcl.cmx :
+src/backend/make_platform/gen_platform_tcl.cmo :
+src/backend/make_platform/gen_platform_tcl.cmx :
+src/backend/make_platform/hsml2cc.cmo :
+src/backend/make_platform/hsml2cc.cmx :
+src/backend/make_platform/hsml2gluecode.cmo :
+src/backend/make_platform/hsml2gluecode.cmx :
+src/backend/primitives.cmo :
+src/backend/primitives.cmx :
+src/backend/types.cmo :
+src/backend/types.cmx :
+src/compile.cmo : \
+    src/prelude.cmo \
+    src/macle.cmo \
+    src/const.cmo
+src/compile.cmx : \
+    src/prelude.cmx \
+    src/macle.cmx \
+    src/const.cmx
+src/const.cmo : \
+    src/prelude.cmo
+src/const.cmx : \
+    src/prelude.cmx
+src/macle.cmo : \
+    src/syntax.cmo \
+    src/prelude.cmo \
+    src/const.cmo
+src/macle.cmx : \
+    src/syntax.cmx \
+    src/prelude.cmx \
+    src/const.cmx
+src/main.cmo : \
+    src/typing.cmo \
+    src/print_syntax.cmo \
+    src/prelude.cmo \
+    src/parser.cmi \
+    src/macle.cmo \
+    src/const.cmo \
+    src/compile.cmo
+src/main.cmx : \
+    src/typing.cmx \
+    src/print_syntax.cmx \
+    src/prelude.cmx \
+    src/parser.cmi \
+    src/macle.cmx \
+    src/const.cmx \
+    src/compile.cmx
+src/parser.cmi : \
+    src/macle.cmo
+src/prelude.cmo :
+src/prelude.cmx :
+src/print_syntax.cmo : \
+    src/syntax.cmo \
+    src/const.cmo
+src/print_syntax.cmx : \
+    src/syntax.cmx \
+    src/const.cmx
+src/syntax.cmo : \
+    src/prelude.cmo
+src/syntax.cmx : \
+    src/prelude.cmx
+src/typing.cmo : \
+    src/syntax.cmo \
+    src/prelude.cmo \
+    src/const.cmo
+src/typing.cmx : \
+    src/syntax.cmx \
+    src/prelude.cmx \
+    src/const.cmx
+src/parser.cmo : \
+    src/parser.cmi
+src/parser.cmx : \
+    src/parser.cmi
+src/parser.cmi :
